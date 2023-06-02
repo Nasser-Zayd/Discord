@@ -1,0 +1,157 @@
+* {
+  margin: 0px;
+}
+/* Header container */
+.header-container {
+  width: 100%;
+  height: 100px;
+  background-color: red;
+}
+/* position of logo div in container header  */
+.header-logo-div {
+  background-color: green;
+  width: 12rem;
+  margin-left: 6rem;
+  height: 6rem;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.logo-text a {
+  color: white;
+  margin-left: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Uni Sans Heavy;
+  font-family: cursive;
+}
+/* header a element div  */
+.header-elements-a {
+  background-color: green;
+  width: 46rem;
+  height: 6rem;
+  margin-left: 20rem;
+  margin-top: -95px;
+}
+/* a element of header */
+.header-elements-a a {
+  background-color: blue;
+  color: white;
+  padding: 15px;
+  text-decoration: none;
+  margin: 10px;
+  font-weight: bold;
+}
+/* flex of a elements */
+.header-elements-a {
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+/* login header div  */
+.header-login {
+  background-color: black;
+  width: 12rem;
+  height: 6rem;
+  float: right;
+  margin-top: -95px;
+  margin-right: 30px;
+}
+.header-login a {
+  color: black;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: white;
+  margin: 65px;
+  margin-top: 25px;
+  border-radius: 40px;
+}
+/* a elements hover */
+.header-elements-a a:hover {
+  text-decoration: underline;
+}
+.header-login a:hover {
+  color: blue;
+}
+/* h1 with 2 button div after header div  */
+.h1-2button-main {
+  width: 82.4rem;
+  height: 32.7rem;
+  background-color: darkgray;
+}
+.h1-with2button {
+  width: 53rem;
+  height: 18rem;
+  background-color: brown;
+  margin-left: 15rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.h1-2button-main,
+.h1,
+.p {
+  text-align: center;
+  padding: 1rem;
+  color: white;
+  line-height: 32px;
+  letter-spacing: 1px;
+  font-size: 20px;
+  font-stretch: 30px;
+}
+/* size for h1 div h1andd2button  */
+.h1-2button-main h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+/* ajust button div  */
+.download-button {
+  background-color: white;
+  width: 19rem;
+  height: 3.5rem;
+  margin-left: 21rem;
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  border-radius: 7rem;
+  cursor: pointer;
+}
+.openDiscor-button {
+  background-color: #313338;
+  width: 20rem;
+  height: 3.5rem;
+  margin-top: -55px;
+  margin-left: 41rem;
+  border-radius: 7rem;
+}
+.download-button img {
+  margin-top: 2px;
+  width: 2.2rem;
+  height: 2.2rem;
+}
+.download-button .down-text {
+  margin-top: 10px;
+  margin-left: 5px;
+  color: black;
+}
+.openDiscor-button a {
+  color: white;
+  text-decoration: none;
+  /* background-color: red; */
+  display: grid;
+  padding: 12px;
+}
+.download-button .down-text:hover {
+  color: #5865f4;
+}
+.openDiscor-button:hover {
+  box-shadow: 0px 8px 8px 8px hsla(0, 88%, 14%, 0.1);
+}
+.img-background img {
+  width: 84.4rem;
+  height: 38rem;
+}
