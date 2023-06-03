@@ -21,6 +21,9 @@
   margin-left: 4.3rem;
   /* margin-right: 5.5rem; */
 }
+.header-logo-div img {
+  width: 2.2rem;
+}
 .logo-text a {
   color: white;
   margin-left: 10px;
@@ -28,8 +31,8 @@
   font-family: "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial,
     sans-serif;
   font-style: normal;
-  font-weight: 800;
-  font-size: 16px;
+  font-weight: 900;
+  font-size: 19px;
   line-height: 25px;
 }
 /* header a element div  */
