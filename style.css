@@ -5,57 +5,68 @@
 .header-container {
   width: 100%;
   height: 100px;
-  background-color: red;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
 }
 /* position of logo div in container header  */
 .header-logo-div {
-  background-color: green;
-  width: 12rem;
-  margin-left: 6rem;
+  /* background-color: green; */
+  /* width: 12rem;
+  margin-left: 6rem; */
   height: 6rem;
   display: flex;
   justify-content: left;
   align-items: center;
+  margin-left: 4.3rem;
+  /* margin-right: 5.5rem; */
 }
 .logo-text a {
   color: white;
   margin-left: 10px;
   text-decoration: none;
-  font-weight: bold;
-  font-family: Uni Sans Heavy;
-  font-family: cursive;
+  font-family: "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 25px;
 }
 /* header a element div  */
 .header-elements-a {
-  background-color: green;
+  /* background-color: green; */
   width: 46rem;
   height: 6rem;
-  margin-left: 20rem;
+
+  /* margin-left: 20rem;
   margin-top: -95px;
+} */
 }
 /* a element of header */
 .header-elements-a a {
-  background-color: blue;
+  /* background-color: blue; */
   color: white;
-  padding: 15px;
+  padding: 12px;
   text-decoration: none;
   margin: 10px;
   font-weight: bold;
 }
 /* flex of a elements */
 .header-elements-a {
-  background-color: black;
+  /* background-color: black; */
   display: flex;
   align-items: center;
+  margin-left: 9rem;
 }
 /* login header div  */
 .header-login {
-  background-color: black;
+  /* background-color: black; */
   width: 12rem;
   height: 6rem;
-  float: right;
-  margin-top: -95px;
-  margin-right: 30px;
+  margin-left: 2.6rem;
+  /* float: right;
+  /* margin-top: -95px;
+  margin-right: 30px; */
 }
 .header-login a {
   color: black;
@@ -80,16 +91,17 @@
 .h1-2button-main {
   width: 82.4rem;
   height: 32.7rem;
-  background-color: darkgray;
+  /* background-color: darkgray; */
 }
 .h1-with2button {
   width: 53rem;
   height: 18rem;
-  background-color: brown;
+  /* background-color: brown; */
   margin-left: 15rem;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  margin-top: 2rem;
 }
 .h1-2button-main,
 .h1,
@@ -104,8 +116,13 @@
 }
 /* size for h1 div h1andd2button  */
 .h1-2button-main h1 {
-  font-size: 3rem;
-  font-weight: bold;
+  font-family: "ABC Ginto Nord", "Noto Sans", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 53px;
+  color: #ffffff;
 }
 /* ajust button div  */
 .download-button {
@@ -151,7 +168,10 @@
 .openDiscor-button:hover {
   box-shadow: 0px 8px 8px 8px hsla(0, 88%, 14%, 0.1);
 }
-.img-background img {
-  width: 84.4rem;
-  height: 38rem;
+.header-body-section {
+  background-image: url(images/backgrnd.png);
+
+  background-size: cover;
+
+  background-repeat: no-repeat;
 }
