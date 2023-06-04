@@ -117,15 +117,17 @@
   font-size: 20px;
   font-stretch: 30px;
 }
+
 /* size for h1 div h1andd2button  */
-.h1-2button-main h1 {
+.h1-2button-main .h1 {
   font-family: "ABC Ginto Nord", "Noto Sans", "Helvetica Neue", Helvetica, Arial,
     sans-serif;
   font-style: normal;
   font-weight: 800;
-  font-size: 56px;
+  font-size: 66px;
   line-height: 53px;
   color: #ffffff;
+  margin-top: 20px;
 }
 /* ajust button div  */
 .download-button {
@@ -173,8 +175,8 @@
 }
 .header-body-section {
   background-image: url(images/backgrnd.png);
-
   background-size: cover;
-
   background-repeat: no-repeat;
+  background-position: center;
+  overflow: auto;
 }
