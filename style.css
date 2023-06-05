@@ -1,5 +1,6 @@
 * {
   margin: 0px;
+  padding: 0px;
 }
 /* Header container */
 .header-container {
@@ -178,5 +179,90 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  overflow: auto;
+  /* overflow: auto; */
+}
+.h1-sizeresponsive1100 {
+  display: none;
+}
+.text-responsive {
+  display: none;
+}
+/* responsive header and backgound image */
+@media (max-width: 1168px) {
+  .h1-with2button {
+    margin-left: 7rem;
+  }
+  .download-button {
+    margin-left: 14rem;
+  }
+  .openDiscor-button {
+    margin-left: 35rem;
+  }
+}
+@media (max-width: 1100px) {
+  .h1-with2button .h1 {
+    display: none;
+  }
+  .h1-sizeresponsive1100 {
+    display: grid;
+    font-family: "ABC Ginto Nord", "Noto Sans", "Helvetica Neue", Helvetica,
+      Arial, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 66px;
+    line-height: 65px;
+    color: #ffffff;
+    margin-top: 20px;
+  }
+  .download-button {
+    margin-top: 2rem;
+  }
+  .openDiscor-button {
+    margin-left: 35rem;
+  }
+
+  .header-body-section {
+    overflow: hidden;
+  }
+  .header-container {
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+  }
+  .header-login {
+    margin-left: 0px;
+  }
+  .header-elements-a {
+    margin-left: 1.5rem;
+  }
+}
+@media (max-width: 1051px) {
+  /* .text-size1160 {
+    background-color: red;
+    display: none;
+  } */
+  /* .text-responsive {
+    display: flex;
+    background-color: red;
+    margin-left: 2rem;
+  } */
+  .h1-2button-main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .h1-2button-main .two-button-main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .download-button {
+    margin-right: 29rem;
+  }
+  .openDiscor-button {
+    margin-top: 1rem;
+    margin-right: 50rem;
+    white-space: nowrap;
+    align-items: center;
+  }
 }
