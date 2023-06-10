@@ -130,6 +130,9 @@
   color: #ffffff;
   margin-top: 20px;
 }
+.text-size1160 {
+  /* background-color: red; */
+}
 /* ajust button div  */
 .download-button {
   background-color: white;
@@ -187,6 +190,22 @@
 .text-responsive {
   display: none;
 }
+.menu {
+  display: none;
+}
+.text-size1121 {
+  display: none;
+}
+.h1-sizeresponsive1121 {
+  display: none;
+}
+.text-leftresponsive711px {
+  display: none;
+}
+.text-responsivesize711 {
+  display: none;
+}
+
 /* responsive header and backgound image */
 @media (max-width: 1168px) {
   .h1-with2button {
@@ -197,6 +216,9 @@
   }
   .openDiscor-button {
     margin-left: 35rem;
+  }
+  .header-elements-a {
+    margin-left: 1.5rem;
   }
 }
 @media (max-width: 1100px) {
@@ -237,15 +259,16 @@
   }
 }
 @media (max-width: 1051px) {
-  /* .text-size1160 {
-    background-color: red;
+  .text-size1160 {
+    /* background-color: red; */
     display: none;
-  } */
-  /* .text-responsive {
-    display: flex;
-    background-color: red;
-    margin-left: 2rem;
-  } */
+  }
+  .text-responsive {
+    /* background-color: red; */
+    display: block;
+    margin-top: -7rem;
+  }
+
   .h1-2button-main {
     display: flex;
     justify-content: center;
@@ -264,5 +287,97 @@
     margin-right: 50rem;
     white-space: nowrap;
     align-items: center;
+  }
+}
+@media (max-width: 1021px) {
+  .header-elements-a {
+    display: none;
+  }
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .two-button-main {
+    /* background-color: rgb(240, 17, 17); */
+    width: 40rem;
+
+    margin-top: 3px;
+  }
+  .download-button {
+    white-space: nowrap;
+    padding: 1px 18px;
+    /* background-color: green; */
+    margin-left: 9rem;
+  }
+  .openDiscor-button {
+    /* background-color: blue; */
+    margin-left: 30.2rem;
+  }
+
+  .menu {
+    display: block;
+    margin-right: 2.8rem;
+    margin-top: 1rem;
+  }
+  .menu img {
+    width: 2.6rem;
+  }
+
+  .header-login a {
+    /* background-color: green; */
+    margin-right: 10px;
+    margin-left: 7rem;
+    margin-top: 1.2rem;
+  }
+  .menu-login {
+    display: flex;
+    justify-content: center;
+  }
+  .header-logo-div {
+    /* background-color: red; */
+    margin-left: 2.4rem;
+  }
+  .logo-text {
+    margin-bottom: 2rem;
+  }
+  .header-logo-div,
+  .logo {
+    margin-bottom: 2rem;
+  }
+
+  .h1-sizeresponsive1121 {
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: "ABC Ginto Nord", "Noto Sans", "Helvetica Neue", Helvetica,
+      Arial, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 66px;
+    line-height: 53px;
+    color: #ffffff;
+    margin-top: 20px;
+  }
+
+  .h1-with2button {
+    /* background-color: green; */
+    text-align: justify;
+    text-justify: inter-word;
+    margin-top: -6rem;
+    margin-left: 1rem;
+  }
+}
+@media (max-width: 711px) {
+  .h1-with2button {
+    /* background-color: red; */
+  }
+  .text-responsive {
+    display: none;
+  }
+  .text-responsivesize711 {
+    display: block;
+    margin-top: -7rem;
+    font-size: 16px;
+    line-height: 25px;
   }
 }
