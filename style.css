@@ -382,6 +382,7 @@
     line-height: 25px;
     margin-right: 5px;
     float: left;
+    text-align: justify;
   }
   .h1-sizeresponsive711 {
     /* background-color: red; */
@@ -401,14 +402,12 @@
     display: flex;
     justify-content: right;
     /* background-color: red; */
-    margin-left: 2rem;
-    margin-top: 5px;
   }
   .h1-sizeresponsive1100 {
     display: none;
   }
   .header-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
   }
 }
