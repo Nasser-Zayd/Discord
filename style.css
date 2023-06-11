@@ -205,6 +205,9 @@
 .text-responsivesize711 {
   display: none;
 }
+.h1-sizeresponsive711 {
+  display: none;
+}
 
 /* responsive header and backgound image */
 @media (max-width: 1168px) {
@@ -378,22 +381,31 @@
     font-size: 15px;
     line-height: 25px;
     margin-right: 5px;
+    float: left;
   }
-  .h1-sizeresponsive1100 {
+  .h1-sizeresponsive711 {
     /* background-color: red; */
     text-align: justify;
     text-justify: inter-word;
     font-family: "ABC Ginto Nord", "Noto Sans", "Helvetica Neue", Helvetica,
       Arial, sans-serif;
     font-style: normal;
-    font-weight: 800;
-    font-size: 64px;
-    line-height: 56px;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 60px;
     color: #ffffff;
     margin-top: 20px;
+    display: block;
   }
   .menu-login {
     display: flex;
     justify-content: right;
+  }
+  .h1-sizeresponsive1100 {
+    display: none;
+  }
+  .header-container {
+    display: flex;
+    justify-content: space-between;
   }
 }
