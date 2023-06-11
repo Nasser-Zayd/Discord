@@ -368,16 +368,32 @@
   }
 }
 @media (max-width: 711px) {
-  .h1-with2button {
-    /* background-color: red; */
-  }
   .text-responsive {
     display: none;
   }
   .text-responsivesize711 {
+    /* background-color: red; */
     display: block;
     margin-top: -7rem;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 25px;
+    margin-right: 5px;
+  }
+  .h1-sizeresponsive1100 {
+    /* background-color: red; */
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: "ABC Ginto Nord", "Noto Sans", "Helvetica Neue", Helvetica,
+      Arial, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 56px;
+    color: #ffffff;
+    margin-top: 20px;
+  }
+  .menu-login {
+    display: flex;
+    justify-content: right;
   }
 }
