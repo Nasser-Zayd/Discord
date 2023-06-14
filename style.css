@@ -436,13 +436,14 @@
   margin-top: 4rem;
   margin-bottom: 6.5rem;
 }
+
 .sec1-text,
 .sec2-text,
 .sec3-text,
 .sec4-text {
   /* background-color: gray; */
-  height: fit-content;
-  width: fit-content;
+  height: auto;
+  width: auto;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -552,4 +553,95 @@
 }
 .icon-button-sec5:hover {
   box-shadow: 0px 3px 3px 3px hsla(194, 86%, 23%, 0.2);
+}
+
+/* responsive of sections */
+@media (max-width: 1168px) {
+  .h1-sec1 {
+    /* background-color: red; */
+    /* max-width: 26rem; */
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 45px;
+    color: #23272a;
+    font-family: "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial,
+      sans-serif;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  .img-sec1 img {
+    max-width: 27rem;
+    height: auto;
+  }
+  .text-sec1 {
+    margin-right: 1rem;
+  }
+  .text-sec1 {
+    max-width: 22rem;
+    /* background-color: red; */
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+  }
+}
+@media (max-width: 833px) {
+  .sec1-text {
+    background-color: blue;
+
+    margin-top: 1rem;
+  }
+  .h1-sec1 {
+    /* background-color: red; */
+    /* max-width: 23rem; */
+
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px;
+    color: #23272a;
+    font-family: "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial,
+      sans-serif;
+  }
+  .img-sec1 img {
+    max-width: 23rem;
+    height: auto;
+    margin-top: 3rem;
+  }
+
+  .text-sec1 {
+    max-width: 22rem;
+    /* background-color: red; */
+    font-size: 1rem;
+    line-height: 1.4rem;
+  }
+}
+@media (max-width: 741px) {
+  .section-1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: yellow;
+  }
+  .sec1-text {
+    background-color: red;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+  }
+  .h1-sec1 br {
+    display: none;
+  }
+  .h1-sec1 {
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 33px;
+    color: #23272a;
+    font-family: "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial,
+      sans-serif;
+  }
+
+  .img-sec1 img {
+    max-width: 41rem;
+    height: auto;
+  }
 }
