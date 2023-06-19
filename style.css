@@ -853,13 +853,10 @@
   margin-left: 2rem;
 }
 .product a,
-p,
 .company a,
-p,
 .resource a,
-p,
 .policies a,
-p {
+.footer-p {
   align-items: center;
   padding: 10px;
   display: grid;
