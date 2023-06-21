@@ -10,6 +10,7 @@
   display: flex;
   justify-content: center;
 }
+
 /* position of logo div in container header  */
 .header-logo-div {
   /* background-color: green; */
@@ -130,9 +131,7 @@
   color: #ffffff;
   margin-top: 20px;
 }
-.text-size1160 {
-  /* background-color: red; */
-}
+
 /* ajust button div  */
 .download-button {
   background-color: white;
@@ -208,7 +207,9 @@
 .h1-sizeresponsive711 {
   display: none;
 }
-
+.header-body-section {
+  overflow: hidden;
+}
 /* responsive header and backgound image */
 @media (max-width: 1168px) {
   .h1-with2button {
