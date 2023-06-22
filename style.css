@@ -1113,4 +1113,7 @@
     padding: 13px 30px;
     margin-bottom: 4rem;
   }
+  .language a {
+    white-space: nowrap;
+  }
 }
