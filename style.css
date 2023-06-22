@@ -1091,10 +1091,10 @@
     margin-right: 7rem;
   }
   .h1-sec5 {
-    font-size: 29px;
+    font-size: 25px;
     font-style: normal;
     font-weight: 700;
-    line-height: 38px;
+    line-height: 35px;
     color: #000000;
     font-family: "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial,
       sans-serif;
@@ -1103,7 +1103,7 @@
   }
   .icon-button-sec5 {
     /* background-color: #7983f5; */
-    background-color: red;
+    /* background-color: red; */
     display: flex;
     justify-content: space-between;
     flex-direction: row;
