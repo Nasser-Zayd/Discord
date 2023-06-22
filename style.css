@@ -14,8 +14,7 @@
 /* position of logo div in container header  */
 .header-logo-div {
   /* background-color: green; */
-  /* width: 12rem;
-  margin-left: 6rem; */
+
   height: 6rem;
   display: flex;
   justify-content: left;
