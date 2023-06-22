@@ -1090,4 +1090,27 @@
     /* background-color: green; */
     margin-right: 7rem;
   }
+  .h1-sec5 {
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+    color: #000000;
+    font-family: "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial,
+      sans-serif;
+    text-align: justify;
+    margin-top: 2rem;
+  }
+  .icon-button-sec5 {
+    /* background-color: #7983f5; */
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1.4rem;
+    border-radius: 4rem;
+    padding: 13px 30px;
+    margin-bottom: 4rem;
+  }
 }
