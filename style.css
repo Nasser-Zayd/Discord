@@ -2,6 +2,7 @@
   margin: 0px;
   padding: 0px;
 }
+
 /* Header container */
 .header-container {
   width: 100%;
@@ -1125,5 +1126,10 @@
   .img-sec4 img {
     max-width: 23rem;
     height: auto;
+  }
+  .header-body-section,
+  .section,
+  .footer {
+    overflow: hidden;
   }
 }
