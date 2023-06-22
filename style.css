@@ -1075,7 +1075,7 @@
 }
 @media (max-width: 600px) {
   .footer-line {
-    width: 27rem;
+    max-width: 20rem;
     /* background-color: white' */
     margin-left: 5px;
   }
@@ -1115,5 +1115,15 @@
   }
   .language a {
     white-space: nowrap;
+  }
+  .img-sec1 img,
+  .img-sec2 img,
+  .img-sec3 img {
+    max-width: 22.5rem;
+    height: auto;
+  }
+  .img-sec4 img {
+    max-width: 23rem;
+    height: auto;
   }
 }
